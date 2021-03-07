@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    background: url(images/maldives2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    color: #fbd9bb;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(61, 35, 35);
+    /* text-shadow: 5px 5px 10px grey; */
+    font-family: "Big Shoulders Inline Text", cursive;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-top: 300px;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+em:hover {
+  letter-spacing: .25em;
+  animation: ease-in-out 5s;
+}
+
+form {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: center;
+  color: snow;
+  width: 400px;
+}
+
+.glass {
+  text-shadow: 2px 2px 2px gray;
+  color:snow;
+  background-color: rgba(255, 255, 255, .15);  
+ border-radius: 10%;
+}
+
+.social_media {
+  backdrop-filter: 10px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: none;
+}
+
+label {
+  font-size: 30px;
+  font-family: "Carrois Gothic SC", sans-serif;
+  display: none;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Carrois Gothic SC", sans-serif;
+  color: black;
+}
+
+.subtext {
+  font-size: 12px;
+}
+
+input,
+select,
+#phone,
+#comment {
+  width: 70%;
+  height: 50%;
+  padding: 12px 20px;
+  font-family: system-ui;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+img {
+  margin: 0;
+  width: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin:auto;
+    text-shadow: 5px 5px 5px black;
+  }
+  .glass {
+    text-shadow: 2px 2px 2px gray;
+    color:snow;
+    background-color: rgba(255, 255, 255, .25);  
+   border-radius: 10%;
+   margin-top:100px;
+  }
+}
+@media screen and (max-width:768px) {
+  /* html {
+    height: 850px;
+  } */
+  /* .glass {
+    margin-top:20px;
+  } */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1150px) {
+h1 {
+    font-size: 50px;
+    text-align: center;
+    /* text-shadow: 2px 2px 2px rgb(97, 96, 96); */
+    text-shadow: 2px 2px 2px rgb(61, 35, 35);
+
+    margin:auto;
+  }
+  .glass {
+    text-shadow: 2px 2px 2px gray;
+    color:snow;
+    background-color: rgba(255, 255, 255, .25);  
+   border-radius: 10%;
+   margin-top:85px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1369px) {
+  h1 {
+    font-size: 55px;
+    width: 50%;
+  }
+}

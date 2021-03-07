@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Big+Shoulders+Inline+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Xscursions Travel Agency Landing Page</title>
+</head>
+<body>
+        <div id="caption">
+        <h1>The splendors of paradise await come join Xscursions&copy; and book the destination of your dreams TODAY</h1></div>
+
+    <div class="container">
+        <form id="form">
+            <div class="glass">
+            <br>
+            <h2>SIGN UP</h2>
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" placeholder="Name:" required minlength="3" maxlength="100">
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" placeholder="Email:" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Email invalid. Format should be email123@email.com">
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" placeholder="Password:" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowecase letter and at least 8 or more characters" required>
+            <br>
+
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <div class="msg-container">
+                <div id="new">
+                    <!-- Leave A Message! -->
+                </div>
+            </div>
+            
+            <a href=""><h3>Already have an account?</h3></a>
+            <h4>Follow Us!</h4>
+            <div class="social_media">
+            <a href="https://facebook.com"><img src="images/fb.svg"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg"></a>
+            <a href="https://instagram.com"><img src="images/ig.svg"></a>
+            <br>
+            <br>
+            </div>
+            </div>
+
+        </form>
+        </div>
+
+        <script src="contact.js"></script>
+</body>
+</html>
